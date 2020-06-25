@@ -1,0 +1,10 @@
+((*- extends 'article.tplx' -*))
+
+((* block author *))
+\author{刘鹏}
+((* endblock author *))
+
+((* block packages *))
+((( super() )))
+\usepackage{ctex}
+((* endblock packages *))
